@@ -1,0 +1,39 @@
+
+body {
+    font-family: 'Tahoma', sans-serif;
+    background-color: #fdf6f9;
+    color: #444;
+    padding: 20px;
+    margin: 0;
+    direction: rtl;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+}
+
+h1 {
+    color: #c06c9b;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.quote {
+    background-color: #ffffff;
+    border-right: 5px solid #b583b1;
+    padding: 15px 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    border-radius: 8px;
+}
+
+.quote h2 {
+    color: #9b408f;
+    margin: 0 0 10px;
+}
+
+.quote p {
+    margin: 0;
+    line-height: 1.6;
+}
