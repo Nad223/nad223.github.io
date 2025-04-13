@@ -1,80 +1,11 @@
 
-/* خلفية عامة */
-body {
-    background-color: #fff0f5; /* وردي فاتح */
-    font-family: 'Arial', sans-serif;
-    direction: rtl;
-    text-align: right;
-    color: #333;
-    margin: 0;
-    padding: 0;
-}
-
-/* ترويسة */
-header {
+/* تذييل الصفحة */
+footer {
     background-color: #f8f8f8;
-    border-bottom: 1px solid #ddd;
-    padding: 20px;
+    border-top: 1px solid #ddd;
+    padding: 15px;
     text-align: center;
-}
-
-/* عنوان الموقع */
-header h1 {
-    color: #d36c8c; /* وردي غامق */
-    margin: 0;
-}
-
-/* روابط التنقل */
-nav a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #666;
-    font-weight: bold;
-}
-
-nav a:hover {
-    color: #d36c8c;
-}
-
-/* المحتوى */
-main {
-    padding: 20px;
-    max-width: 700px;
-    margin: auto;
-}
-
-/* العناوين */
-h2 {
-    color: #a0526d;
-}
-
-/* النموذج */
-form label {
-    display: block;
-    margin-top: 10px;
-    font-weight: bold;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-button {
-    background-color: #d36c8c;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin-top: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #b84d71;
+    font-size: 14px;
+    color: #999;
+    margin-top: 40px;
 }
